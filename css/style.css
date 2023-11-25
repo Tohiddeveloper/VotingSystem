@@ -1,0 +1,41 @@
+.{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  background-image: linear-gradient(to right,#a517ba,#5f1178);
+}
+.votingbtn{
+  padding: 12px 24px;
+  background-image: linear-gradient(to right,#a517ba,#5f1178);
+  border-radius: 6px;
+  color: #EEF5FF;
+  border:2px #EEF5FF solid;
+  transition: transition 250ms ease-in-out;
+  margin-left: auto;
+}
+
+.votingbtn:hover{
+  transform: scale(1.1);
+}
+.votingbtn.active{
+  transform: scale(0.9);
+}
+
+#banner{
+  background-image: linear-gradient(to right,#a517ba,#5f1178);
+  padding-top: 5%;
+  color: #EEF5FF;
+}
+.bannerh1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.imgbannner{
+  margin-top: 20px;
+  margin-left: 20px;
+}
